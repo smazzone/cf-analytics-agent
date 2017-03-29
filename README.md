@@ -16,9 +16,6 @@ To deploy the Application to CloudFoundry the [Dist Zip Container](https://githu
 1. Deploy the Agent to CloudFoundry
   * by `cf push <Analytics Agent Name>`
   * The AppDynamics Application Name will be the `space_name` from `VCAP_APPLICATION` by default
-  * The AppDynamics Application Name will be the `application_name` from `VCAP_APPLICATION` by default
-  * The AppDynamics Node Name will be `application_name:instance_index` from `VCAP_APPLICATION` by default
-  * The AppDynamics Unique Host ID will be `application_name:instance_index` from `VCAP_APPLICATION` by default
 
 ## Clean
 
